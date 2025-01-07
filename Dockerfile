@@ -12,3 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Menentukan perintah yang dijalankan ketika container dijalankan
 CMD ["python", "app.py"]
+
+#menggunakan PORT 5000
+EXPOSE 5000
